@@ -5,15 +5,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Square Bracket Notation</title>
+    <title>Facebook – log in or sign up</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/png" href="favicon.png" />
     <link rel="stylesheet" href="index.css">
 </head>
 
-<body>
-    <div class="my-2 mx-4 bg-red-900 text-white">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, quos perspiciatis! Et iusto, amet, illo iure
-        possimus nemo quibusdam architecto, ad tenetur eius quo harum?
+<body class="bg-gray-100">
+    <div class="container mt-36 flex mx-auto items-center justify-center">
+        <div class="left w-1/2">
+            <img class="w-80" src="fb_logo.svg" alt="">
+            <p class="text-2xl mx-8">Facebook helps you connect and share with the people in your life.</p>
+        </div>
+        <div class="right drop-shadow-md flex flex-col bg-white p-8 w-1/3 rounded-xl text-md relative">
+            <input class="px-4 h-12 my-2 border border-gray-200 rounded-lg outline-blue-600" type="text"
+                placeholder="Email address or phone number">
+            <input class="px-4 h-12 my-2 border border-gray-200 rounded-lg outline-blue-600" type="password"
+                placeholder="Password">
+            <button class=" bg-blue-600 hover:bg-blue-700 text-white font-bold my-2 py-3 rounded-md cursor-pointer">Log
+                in</button>
+            <span class="text-blue-600 text-center text-sm my-2 cursor-pointer hover:underline">Forgotten
+                password?</span>
+            <hr class="my-2">
+            <button
+                class="bg-fb hover:bg-green-600 text-white font-bold my-2 py-3 w-fit px-4 mx-auto rounded-md cursor-pointer">Create
+                New
+                Account</button>
+            <span class="absolute -bottom-12 text-sm mx-8"><span class="font-bold hover:underline cursor-pointer">Create
+                    a
+                    Page </span>for a
+                celebrity,
+                brand or
+                business.</span>
+        </div>
     </div>
 </body>
 
